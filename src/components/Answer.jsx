@@ -22,16 +22,12 @@ const Answer = (props) => {
 
   return (
     <Button
-      variant="contained"
+      className={classes.button}
+      variant="outlined"
       onClick={() => props.select(props.content, props.nextId)}
     >
       {props.content}
     </Button>
-
-    // <Button className={classes.button} variant="outlined"
-    //         onClick={() => props.select(props.answer.content, props.answer.nextId)}>
-    //     {props.answer.content}
-    // </Button>
   );
 };
 

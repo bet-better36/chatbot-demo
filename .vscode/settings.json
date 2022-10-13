@@ -1,0 +1,6 @@
+{
+    "prettier.resolveGlobalModules": false
+    "eslint.workingDirectories": [
+        "./api"
+    ]
+}
